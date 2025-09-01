@@ -1,0 +1,18 @@
+{
+  "name": "toolpack",
+  "version": "1.0.0",
+  "description": "Lightweight, customizable, CDN-ready Vanilla JS + CSS UI component library",
+  "main": "dist/toolpack.js",
+  "scripts": {
+    "build:js": "esbuild src/js/toolpack.js --bundle --outfile=dist/toolpack.js --minify",
+    "build:css": "postcss src/css/toolpack.css -o dist/toolpack.css",
+    "build": "npm run build:js && npm run build:css"
+  },
+  "author": "Engin Kayalı",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.18.18",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0"
+  }
+}

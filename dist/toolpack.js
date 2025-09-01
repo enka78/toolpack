@@ -1,0 +1,1 @@
+(()=>{function e(){document.querySelectorAll(".tp-btn").forEach(t=>{t.addEventListener("click",()=>{console.log(`Button clicked: ${t.innerText}`)})})}document.addEventListener("DOMContentLoaded",()=>{e()});})();
