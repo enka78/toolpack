@@ -1,0 +1,15 @@
+:root {
+  /* Renkler */
+  --tp-primary: #4f46e5;
+  --tp-primary-hover: #4338ca;
+  --tp-secondary: #f59e0b;
+  --tp-text: #ffffff;
+
+  /* Boyutlar */
+  --tp-btn-padding-small: 6px 12px;
+  --tp-btn-padding-medium: 8px 16px;
+  --tp-btn-padding-large: 12px 24px;
+
+  /* Border */
+  --tp-radius: 8px;
+}

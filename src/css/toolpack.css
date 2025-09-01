@@ -1,0 +1,33 @@
+@import url("./variables.css");
+@import url("./base.css");
+
+/* Button Variants */
+.tp-btn[data-variant="primary"] {
+  background: var(--tp-primary);
+  color: var(--tp-text);
+}
+.tp-btn[data-variant="primary"]:hover {
+  background: var(--tp-primary-hover);
+}
+
+/* Secondary */
+.tp-btn[data-variant="secondary"] {
+  background: var(--tp-secondary);
+  color: #000;
+}
+
+/* Button Sizes */
+.tp-btn[data-size="small"] {
+  padding: var(--tp-btn-padding-small);
+  font-size: 14px;
+}
+
+.tp-btn[data-size="medium"] {
+  padding: var(--tp-btn-padding-medium);
+  font-size: 16px;
+}
+
+.tp-btn[data-size="large"] {
+  padding: var(--tp-btn-padding-large);
+  font-size: 18px;
+}
