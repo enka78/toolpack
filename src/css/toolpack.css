@@ -1,19 +1,19 @@
-@import url("./reset.css");
-@import url("./variables.css");
-@import url("./base.css");
+@import "reset.css";
+@import "variables.css";
+@import "base.css";
 
 /* Button Variants */
 .tp-btn[data-variant="primary"] {
-  background: var(--tp-primary);
+  background-color: var(--tp-primary);
   color: var(--tp-text);
 }
 .tp-btn[data-variant="primary"]:hover {
-  background: var(--tp-primary-hover);
+  background-color: var(--tp-primary-hover);
 }
 
 /* Secondary */
 .tp-btn[data-variant="secondary"] {
-  background: var(--tp-secondary);
+  background-color: var(--tp-secondary);
   color: #000;
 }
 

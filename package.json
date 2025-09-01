@@ -11,8 +11,11 @@
   "author": "Engin Kayalı",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
     "esbuild": "^0.18.18",
     "postcss": "^8.4.29",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^16.1.1"
   }
 }
