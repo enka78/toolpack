@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
-    require("postcss-import"),
-    require("autoprefixer"),
-    require("cssnano"), // minify için
+    require("postcss-import"), // CSS dosyalarını sırasıyla içe aktarır
+    require("autoprefixer"), // Tarayıcı uyumluluğu ekler
+    require("cssnano"), // CSS'i minify eder
   ],
 };
